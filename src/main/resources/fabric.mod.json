@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "calc",
+  "version": "${version}",
+
+  "name": "SimpleCalculator",
+  "description": "It do mafs yes, based on Mariusz Gromada's mXparser java evaluator",
+  "authors": [
+    "Abaan404"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Abaan404/SimpleCalculator"
+  },
+
+  "license": "MIT",
+  "icon": "assets/calc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.abaan404.SimpleCalculator.Main"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
